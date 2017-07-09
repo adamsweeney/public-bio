@@ -18,17 +18,18 @@
     -->
 	</head>
 	<body>
+		{{ partial "navbar.html" . }}
 		<div class="wrapper">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="float: left">
 					<p>Who: Adam Sweeney</p>
 					<p>Where: Mississauga, Ontario, Canada</p>
 					<p>What: Full-Stack Developer</p>
 					<p>When: Since 2011</p>
 					<p>How: Rails, Javascript (Ember, React), HTML/CSS</p>
 				</div>
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-					<p>Image here</p>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<img src="images/circleCutout.png" id="profilePhoto"/>
 				</div>
 			</div>
 		</div>
@@ -36,5 +37,8 @@
 		<!-- Scripts -->
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$("#home").addClass("active");
+		</script>
 	</body>
 </html>

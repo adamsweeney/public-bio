@@ -1,8 +1,51 @@
 body {
-  background-color: #000;
+  background-color: #0099ff;
 	color: white;
 }
 
 .wrapper {
 	padding: 50px 100px;
+  margin-top: 70px;
+}
+
+#logo {
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.navbar-custom {
+  background-color: #003333;
+  color: white;
+  padding-top:5px;
+  min-height:70px;
+}
+
+ul > li > a {
+  color: white;
+  background: transparent;
+  font-weight: bold;
+}
+
+ul > li > a:hover {
+  color: #0099ff;
+  background: transparent;
+  margin: 0;
+  font-weight: bold;
+}
+
+li:hover{
+  background: transparent;
+}
+
+.active > a {
+  color: #0099ff;
+  background: transparent;
+  margin: 0;
+  font-weight: bold;
+}
+
+#profilePhoto {
+  width: 300px;
+  height: 300px;
 }
