@@ -18,18 +18,55 @@
     -->
 	</head>
 	<body>
-		{{ partial "navbar.html" . }}
 		<div class="wrapper">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="float: left">
-					<p>Who: Adam Sweeney</p>
-					<p>Where: Mississauga, Ontario, Canada</p>
-					<p>What: Full-Stack Developer</p>
-					<p>When: Since 2011</p>
-					<p>How: Rails, Javascript (Ember, React), HTML/CSS</p>
+			<div class="container">
+				<header class="site_header">
+					<img id="name" src="images/namePlate.png" />
+					<h3 style="margin-top:0">FULL STACK DEVELOPER</h3>
+					<p class="mini_bio">Full Stack developer, fluent in technologies such as Ruby on Rails, Javascript and frameworks such as React, Ember and Knockout. Always open to learning more.</p>
+				</header>
+				<div class="row row-margin">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 key_label">
+						<img src="images/aboutText.png" />
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 key_description">
+						<img src="images/circleCutout.png" id="profilePhoto"/>
+						<p>Hello, I'm Adam. I am currently looking for work remotely or in the Toronto area. I've been in the industry
+							for 6 years now, and have a variety of experience in different areas such as test automation, desktop application development
+							and more predominately web development.
+						</p>
+						<p>I was born in Mississauga, and was raised here for 12 years. Eventually my parents bought a house in Barrie, and this is where I saw
+							myself going to college and graduating from Georgian College, and getting my first job at Lyris Inc. I discovered a love for programming
+					  	in grade 11. This is where I took my first programming course, and learned all about Turing. I enjoyed that ability to create something
+					  	on the computer, as I was never quite a handy individual with wood, metal etc. So this was a great outlet to see my ideas come to fruition.
+						</p>
+						<p>On a personal standpoint. I have a love for sports. I enjoy just about most sports including Hockey, Soccer, Football, Golf. I also have
+							quite the admiration for travel. I spent a year living in Australia, and traveled around as a backpacker there. I've also been to Cuba, Costa Rica,
+							Iceland, United States and New Zealand. (New Zealand being an easy favorite).
+						</p>
+					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-					<img src="images/circleCutout.png" id="profilePhoto"/>
+				<div class="row row-margin">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 key_label">
+						<img src="images/skillsText.png" />
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5	 key_description">
+						<p>My current mindset has to always been be able to solve your own problem. So over the years I've kind've dabbled in all sorts of different
+							technologies. For the last 2 years I've been doing Rails solely as my backend technology, with mixtures of Javascript frameworks like:
+							Ember, React, Knockout and tiny little bit of Angular. I also enjoy Android development, although it's something i've only picked up recently,
+							as well as being able to design things; However, I still need a lot of practise with the likes of Illustrator.
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h5>RAILS</h5>
+						<div class="stars four-star"></div>
+						<h5>JAVASCRIPT</h5>
+						<div class="stars four-star"></div>
+						<h5>HTML5 & CSS</h5>
+						<div class="stars three-star"></div>
+						<h5>ANDROID</h5>
+						<div class="stars two-star"></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -37,8 +74,5 @@
 		<!-- Scripts -->
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script>
-			$("#home").addClass("active");
-		</script>
 	</body>
 </html>

@@ -1,51 +1,90 @@
 body {
-  background-color: #0099ff;
-	color: white;
+  background-image: url('/images/wrapperBackground.png');
+  /* #eaeaea */
+	color: #004d80;
+}
+
+p {
+  font-size: 16px;
 }
 
 .wrapper {
-	padding: 50px 100px;
   margin-top: 70px;
 }
 
-#logo {
-  margin-top: 10px;
-  margin-left: -10px;
-  margin-right: 10px;
+.container {
+  background-image: url('/images/Background.png');
+  /* #0099ff */
+  max-width:940px;
+  -webkit-box-shadow: 0px 0px 20px rgba(3, 3, 3, 0.3);
+  -moz-box-shadow: 0px 0px 20px rgba(3, 3, 3, 0.3);
+  box-shadow: 0px 0px 20px rgba(3, 3, 3, 0.3);
 }
 
-.navbar-custom {
-  background-color: #003333;
-  color: white;
-  padding-top:5px;
-  min-height:70px;
+.site_header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #002640;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
 }
 
-ul > li > a {
-  color: white;
-  background: transparent;
+.key_description {
+  border-left: 1px solid #002640;
+}
+
+.key_label > img {
+  float: right;
+  margin-right: 20px;
+}
+
+.mini_bio {
+  margin: 20px 125px 0 125px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-ul > li > a:hover {
-  color: #0099ff;
-  background: transparent;
-  margin: 0;
-  font-weight: bold;
-}
-
-li:hover{
-  background: transparent;
-}
-
-.active > a {
-  color: #0099ff;
-  background: transparent;
-  margin: 0;
-  font-weight: bold;
+.row-margin {
+  margin-bottom: 75px;
 }
 
 #profilePhoto {
-  width: 300px;
-  height: 300px;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 5px solid #002640;
+  float: left;
+  margin: 0 30px 20px 15px;
+  -webkit-box-shadow: 0px 0px 15px rgba(3, 3, 3, 0.3);
+  -moz-box-shadow: 0px 0px 15px rgba(3, 3, 3, 0.3);
+  box-shadow: 0px 0px 15px rgba(3, 3, 3, 0.3);
+}
+
+.stars {
+  background: url('/images/stars.png') top left no-repeat;
+  height:33px;
+  width: 171px;
+  margin-bottom: 15px;
+}
+
+.four-star {
+  background-position: -34px 0px;
+}
+
+.three-star {
+  background-position: -68px 0px;
+}
+
+.two-star {
+  background-position: -102px 0px;
+}
+
+.one-star {
+  background-position: -136px 0px;
+}
+
+h3, h5 {
+  margin: 0;
+  color: #002640;
 }
