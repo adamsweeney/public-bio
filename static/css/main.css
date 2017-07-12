@@ -10,6 +10,7 @@ p {
 
 .wrapper {
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .container {
@@ -45,8 +46,12 @@ p {
   font-weight: bold;
 }
 
-.row-margin {
+.row-margin-lg {
   margin-bottom: 75px;
+}
+
+.row-padding-sm {
+  padding-bottom: 20px;
 }
 
 #profilePhoto {
@@ -84,7 +89,50 @@ p {
   background-position: -136px 0px;
 }
 
+.work-dates {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.job-title {
+  margin-bottom: 15px;
+  color: #004d80;
+}
+
+.job-logo {
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #002640;
+}
+
 h3, h5 {
   margin: 0;
   color: #002640;
+}
+
+.side-project-img {
+  height: 175px;
+  width: 190px;
+  border: 4px solid #002640;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+}
+
+.side-header {
+  text-align: center;
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
+  background-color: #002640;
+}
+
+.footer > p {
+  color: white;
 }
